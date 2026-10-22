@@ -13,7 +13,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-26.04
+    runs-on: cust-nonprod
     environment: ${{github.event.inputs.environment }}
     timeout-minutes: 60
     
